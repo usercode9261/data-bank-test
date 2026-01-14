@@ -1,7 +1,9 @@
-Names = []
+Names = ()
 
 while len(Names) < 10:
                       Name1 = input("put your name!: ")
                       Names.append(Name1)
 
 print(f"{Names}")
+
+
