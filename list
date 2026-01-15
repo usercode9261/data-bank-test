@@ -7,3 +7,14 @@ while len(Names) < 10:
 print(f"{Names}")
 
 
+# FEBONNACI test
+
+number = int(input())
+a = 1
+b = 1 
+while (b) < number:
+    b = a + b
+    a = b - a
+
+print (b)
+
